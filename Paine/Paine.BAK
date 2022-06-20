@@ -17,7 +17,7 @@
   /*---------------------------------------------------------*/
 
 
-/*  This is the main predicate. */         
+/*  This is the main predicate. */
 
 symdiff :-
    nl,
@@ -223,9 +223,8 @@ simp( X^A, C ) :-
    A \== B,
    simp( X^B, C).
 
-simp( X, X ).           /* if all else fails... */              
+simp( X, X ).           /* if all else fails... */
 
 
 numeric(A) :- integer(A).
 
-numeric(A) :- real(A).
